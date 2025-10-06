@@ -52,9 +52,21 @@ h1{
     border: 1px solid black;
     border-radius: 28px;
 }
+.b-radius-botton-blue{
+    padding: 12px 20px;
+    background-color: rgb(63, 77, 230);
+    border: 1px solid rgb(63, 77, 230);
+    border-radius: 28px;
+}
 .bg-image{
     background-image: url(../img/jumbo.png);
     background-size: 100% 100% ;
+}
+.bg-image-stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 650px;
 }
 .text-center{
     text-align: center;
@@ -94,7 +106,7 @@ nav{
     padding-bottom: 200px;
 }
 .padding-left{
-    padding-left: 150px;
+    padding-left: 100px;
 }
 .padding-right{
     padding-right: 100px
