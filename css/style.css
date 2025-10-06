@@ -19,7 +19,11 @@ footer{
 }
 ul{
     list-style: none;
-    gap: 50px;
+    gap: 50px ;
+    
+}
+li{
+    padding: 50px 0px ;
 }
 a{
    text-decoration: none; 
@@ -30,6 +34,9 @@ h1{
 
 .flex{
     display: flex ;
+}
+.flex.diretion{
+    flex-direction: column;
 }
 .displayinblock{
     display: inline-block;
@@ -57,6 +64,7 @@ h1{
     background-color: rgb(63, 77, 230);
     border: 1px solid rgb(63, 77, 230);
     border-radius: 28px;
+    
 }
 .bg-image{
     background-image: url(../img/jumbo.png);
@@ -79,10 +87,12 @@ h1{
     width: 1000px;
 
 }
-
-.mainbox{
-    width: 2000px;
+.imag-ita{
+    width: 20px;
+    min-height: 8px;
 }
+
+
 nav{
     width: 2000px;
     height: 40px;
@@ -91,8 +101,14 @@ nav{
 .color-white{
     color: white;
 }
+.color-blue{
+    color: rgb(63, 77, 230) ;
+}
 .font-size{
     font-size: 1.7rem;
+}
+.font-size-small{
+    font-size: 1rem;
 }
 .padding-40{
     padding: 40px;
@@ -111,6 +127,9 @@ nav{
 .padding-right{
     padding-right: 100px
 }
+.paddin-top{
+    padding-top: 100px;
+}
 
 .bg-blue{
     background-color: blue;
@@ -119,7 +138,7 @@ nav{
     background-color: rgb(250, 245, 245);
 }
 .bg-grey{
-    background-color: grey;
+    background-color: rgb(53, 52, 52);
 }
 .bg-pink{
     background-color: pink;
@@ -135,6 +154,9 @@ nav{
 }
 .jc-content-between{
     justify-content: space-between;
+}
+.jc-content-around{
+    justify-content: space-around;
 }
 .aitems{
     align-items: center;
