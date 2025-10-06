@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    line-height: 50px;
 }
 .container{
     margin: 0px auto;
@@ -10,7 +11,7 @@
 header{
     min-height: 100px;
     background-color: rgb(63, 77, 230);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 footer{
     min-height: 100px;
@@ -32,12 +33,26 @@ a{
 .width-80{
     width: 70%;
 }
-.b-radius-botton{
-    padding: 10px;
+.b-radius-botton-white{
+    padding: 12px 20px;
     background-color: white;
     border: 1px solid white;
-    border-radius: 30px;
+    border-radius: 28px;
 }
+.b-radius-botton-black{
+    padding: 12px 20px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 28px;
+}
+.bg-image{
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
+}
+.text-center{
+    text-align: center;
+}
+
 .mainbox{
     width: 2000px;
 }
@@ -50,6 +65,16 @@ nav{
 }
 .color-white{
     color: white;
+}
+.font-size{
+    font-size: 2rem;
+}
+.padding-40{
+    padding: 40px;
+
+}
+.padding-top-150{
+    padding: 150px;
 }
 .bg-yellow{
     background-color: yellow;
@@ -104,11 +129,7 @@ nav{
     width: 50%;
 
 }
-.red{
-    background-color: red;
-    min-width: 1500px;
-    min-height: 750px;
-}
+
 .blue{
     background-color: blue;
     min-height: 750px;
