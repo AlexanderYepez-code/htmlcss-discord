@@ -2,24 +2,41 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container{
-    height: 1000px;
-    margin: 0 auto;
-
+    margin: 0px auto;
 }
 header{
     min-height: 100px;
-    background-color: lightblue;
+    background-color: rgb(63, 77, 230);
+    font-size: 1.5rem;
 }
 footer{
     min-height: 100px;
     background-color: grey;
 }
+ul{
+    list-style: none;
+    gap: 50px;
+}
+a{
+   text-decoration: none; 
+}
+
 .flex{
     display: flex ;
     
 
+}
+.width-80{
+    width: 70%;
+}
+.b-radius-botton{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 .mainbox{
     width: 2000px;
@@ -30,6 +47,9 @@ nav{
 }
 .box-footer{
     min-height: 75px;
+}
+.color-white{
+    color: white;
 }
 .bg-yellow{
     background-color: yellow;
@@ -78,10 +98,6 @@ nav{
 .bottone{
    
     padding: 2px;
-
-}
-.login{
-    width: 25%;
 
 }
 .link{
